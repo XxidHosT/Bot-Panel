@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
         }
     })
     const plugin = help.filter(plugin => plugin.tags[0] === 'panel')[0].help
-    let t = `*===[ LYEE HOST MENU ]===*
+    let t = `*===[ PANEL MENU ]===*
 \n`
     // for (let p of plugin)
     //     t += `${p++}. ${p}\n`
