@@ -3,13 +3,13 @@ import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 
 global.owner = [
-  ['62895322458420', 'NovanOfficial', true],
+  ['ubah nomor anda', '⚡⚡⚡', true],
 ]
 // [number, dia creator/owner?, dia developer?]
 // Put your number here
-global.mods = ['62895322458420'] // Want some help?
+global.mods = ['ubah nomor anda'] // Want some help?
 global.prems = JSON.parse(readFileSync('./src/premium.json')) // Premium user has unlimited limit
-global.wm = 'PANEL NovanOfficial'
+global.wm = 'PANEL XXID'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
