@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command, isROwner }) => 
             let t = text.split(',');
             if (t.length < 1) return m.reply(`
 Gini Loh Sayang❤️:
-${prefix + command} email,username,name,number/tag`);
+${prefix + command} email,username,name,reply`);
 let email = t[0];
 let username = t[1];
 let name = t[2];
@@ -46,7 +46,7 @@ let u = m.quoted ? m.quoted.sender : t[0] ? t[0].replace(/[^0-9]/g, '') + '@s.wh
 
             if (!u) return m.reply(`*Gini Loh Sayang❤️❤️*
 
-> Perintah : ${usedPrefix + command} email,username,name,number/tag`);
+> Perintah : ${usedPrefix + command} email,username,name,reply`);
             let d = (await conn.onWhatsApp(u.split`@`[0]))[0] || {}
             let profil = d.exists ? crypto.randomBytes(2).toString('hex') : t[2]
             let password = d.exists ? crypto.randomBytes(3).toString('hex') : t[3]
