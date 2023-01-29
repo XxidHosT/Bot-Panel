@@ -10,3 +10,5 @@ instalation: <p>[1] create apikey 2 ptlc user root/admin</p>
              <p>[4] change your number owner to Config.json</p>
              <p>[5] Run your both </p>
              <p>[6] Instalation succesful</p>
+<p>This Script Don't Sell with anyone </p>
+<p>This Script For Free</p>
