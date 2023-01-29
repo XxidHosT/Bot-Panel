@@ -42,7 +42,7 @@ let email = t[0];
 let username = t[1];
 let name = t[2];
 let u = m.quoted ? m.quoted.sender : t[0] ? t[0].replace(/[^0-9]/g, '') + '@s.whatsapp.net' : m.mentionedJid[0];
-            let dms = '62895322458420@s.whatsapp.net';
+            let dms = '6281334915899@s.whatsapp.net';
 
             if (!u) return m.reply(`*Gini Loh Sayang❤️❤️*
 
